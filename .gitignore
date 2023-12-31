@@ -1,0 +1,53 @@
+# Compiled binary
+*.exe
+*.out
+*.app
+
+# Dependency directories
+/vendor/
+/go.sum
+/go.mod
+
+# Output of go test
+/report/
+
+# Output of go tool cover
+/cover/
+
+# Temporary files
+*.log
+*.test
+
+# Binary file for capturing profiling data
+*.prof
+
+# Go binary
+/bin/
+
+# Environment file
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Compiled source
+*.c
+*.dll
+*.so
+*.dylib
+
+# Auto-generated files
+/_obj/
+/_test/
+/_testmain.go
+
+# Output of the go coverage tool
+/coverprofile/
+
+# Output of the go lint tool
+/lint.log
+
+# Specific to Golang
+Thumbs.db
+.DS_Store
